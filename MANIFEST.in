@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include red_notification_icon *.css
+recursive-include red_notification_icon *.csv
+recursive-include red_notification_icon *.html
+recursive-include red_notification_icon *.ico
+recursive-include red_notification_icon *.js
+recursive-include red_notification_icon *.json
+recursive-include red_notification_icon *.md
+recursive-include red_notification_icon *.png
+recursive-include red_notification_icon *.py
+recursive-include red_notification_icon *.svg
+recursive-include red_notification_icon *.txt
+recursive-exclude red_notification_icon *.pyc
